@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c2c2c;  /* Fundo escuro, fundo atrás do bloco */ 
+    color: #fff;  /* Texto branco */
+}
+
+header {
+    background-color: #000;  /* Fundo preto */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #f9e76d;  /* Dourado para o texto */
+}
+
+section {
+    width: 80%;  /* Define a largura do bloco para 80% da tela */
+    max-width: 800px;  /* Limita a largura máxima para telas grandes */
+    background-color: #333;  /* Cor de fundo para destacar o bloco */
+    padding: 80px;  /* Adiciona espaço interno */
+    margin: 20px auto;  /* Centraliza o bloco horizontalmente */
+    text-align: center;  /* Centraliza o texto dentro do bloco */
+    color: #fff;  /* Mantém o texto branco */
+    border-radius: 8px;  /* Bordas arredondadas para um visual mais agradável */
+}
+
+#sobre button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #f9e76d;  /* Borda dourada */
+    background-color: #000;  /* Fundo preto */
+    color: #f9e76d;  /* Texto dourado */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#sobre button:hover {
+    background-color: #f9e76d;  /* Fundo dourado no hover */
+    color: #000;  /* Texto preto no hover */
+}
+
+/* Estilo para os botões com a classe "botao-baixo" */
+.botao-baixo {
+    margin: 5px;  /* Espaçamento maior para dar mais destaque */
+    padding: 6px 24px;
+    background-color: #444;  /* Fundo escuro */
+    color: #ffd700;  /* Texto dourado */
+    border: 2px solid #ffd700;  /* Borda dourada */
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.botao-baixo:hover {
+    background-color: #ffd700;  /* Fundo dourado no hover */
+    color: #000;  /* Texto preto no hover */
+}
+
+
+.icone-whatsapp {
+    color: #25D366;
+}
+
+.icone-email {
+    color: #0078D4;
+}
+
+.botao-wpp {
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #25D366;  /* Fundo verde */
+    color: #fff;  /* Texto branco */
+    border: 2px solid #25D366;  /* Borda verde */
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.botao-wpp:hover{
+    background-color: #1e9c56;  /* Fundo mais escuro no hover */
+    border-color: #1e9c56;  /* Borda mais escura no hover */
+
+}
+
+.botao-email {
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #0078D4;  /* Fundo azul */
+    color: #fff;  /* Texto branco */
+    border: 2px solid #0078D4;  /* Borda azul */
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block; 
+    
+}
+
+.botao-email:hover {
+    background-color: #005a8c;  /* Fundo mais escuro no hover */
+    border-color: #005a8c;  /* Borda mais escura no hover */
+
+}
