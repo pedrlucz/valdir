@@ -1,110 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #2c2c2c;  /* Fundo escuro, fundo atrás do bloco */ 
-    color: #fff;  /* Texto branco */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2c2c2c;  /* Fundo escuro, fundo atrás do bloco */ 
+  color: #fff;  /* Texto branco */
 }
 
 header {
-    background-color: #000;  /* Fundo preto */
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    color: #f9e76d;  /* Dourado para o texto */
+  background-color: #000;  /* Fundo preto */
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #f9e76d;  /* Dourado para o texto */
 }
 
 section {
-    width: 80%;  /* Define a largura do bloco para 80% da tela */
-    max-width: 800px;  /* Limita a largura máxima para telas grandes */
-    background-color: #333;  /* Cor de fundo para destacar o bloco */
-    padding: 80px;  /* Adiciona espaço interno */
-    margin: 20px auto;  /* Centraliza o bloco horizontalmente */
-    text-align: center;  /* Centraliza o texto dentro do bloco */
-    color: #fff;  /* Mantém o texto branco */
-    border-radius: 8px;  /* Bordas arredondadas para um visual mais agradável */
+  width: 80%;  /* Define a largura do bloco para 80% da tela */
+  max-width: 750px;  /* Limita a largura máxima para telas grandes */
+  background-color: #333;  /* Cor de fundo para destacar o bloco */
+  padding: 60px;  /* Adiciona espaço interno */
+  margin: 20px auto;  /* Centraliza o bloco horizontalmente */
+  text-align: center;  /* Centraliza o texto dentro do bloco */
+  color: #fff;  /* Mantém o texto branco */
+  border-radius: 8px;  /* Bordas arredondadas para um visual mais agradável */
 }
 
+section p { 
+  margin-top: 5px; 
+  color: #fff; /* Texto branco */ 
+}
+
+#sobre img { 
+  position: relative; 
+  top: -30px; /* Move a imagem 20px para cima */ }
+
 #sobre button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: 2px solid #f9e76d;  /* Borda dourada */
-    background-color: #000;  /* Fundo preto */
-    color: #f9e76d;  /* Texto dourado */
-    cursor: pointer;
-    border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #f9e76d;  /* Borda dourada */
+  background-color: #000;  /* Fundo preto */
+  color: #f9e76d;  /* Texto dourado */
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 #sobre button:hover {
-    background-color: #f9e76d;  /* Fundo dourado no hover */
-    color: #000;  /* Texto preto no hover */
+  background-color: #f9e76d;  /* Fundo dourado no hover */
+  color: #000;  /* Texto preto no hover */
 }
 
 /* Estilo para os botões com a classe "botao-baixo" */
 .botao-baixo {
-    margin: 5px;  /* Espaçamento maior para dar mais destaque */
-    padding: 6px 24px;
-    background-color: #444;  /* Fundo escuro */
-    color: #ffd700;  /* Texto dourado */
-    border: 2px solid #ffd700;  /* Borda dourada */
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
+  margin: 5px;  /* Espaçamento maior para dar mais destaque */
+  padding: 6px 24px;
+  background-color: #444;  /* Fundo escuro */
+  color: #ffd700;  /* Texto dourado */
+  border: 2px solid #ffd700;  /* Borda dourada */
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  width: 600px; /* Largura fixa */ 
+  text-align: center; /* Centralizar o texto */
 }
 
 .botao-baixo:hover {
-    background-color: #ffd700;  /* Fundo dourado no hover */
-    color: #000;  /* Texto preto no hover */
+  background-color: #ffd700;  /* Fundo dourado no hover */
+  color: #000;  /* Texto preto no hover */
 }
 
 
 .icone-whatsapp {
-    color: #25D366;
+  color: #25D366;
 }
 
 .icone-email {
-    color: #0078D4;
+  color: #0078D4;
 }
 
+/* Botão do WhatsApp com laterais verdes */
 .botao-wpp {
-    margin: 10px;
-    padding: 12px 24px;
-    background-color: #25D366;  /* Fundo verde */
-    color: #fff;  /* Texto branco */
-    border: 2px solid #25D366;  /* Borda verde */
-    border-radius: 8px;
-    cursor: pointer;
-    display: inline-block;
-
+  margin-top: 35px !important;
+  margin: 10px !important;
+  padding: 12px 24px !important;
+  background-color: #2c2c2c !important;  /* Fundo verde */
+  color: #25D366 !important;  /* Texto branco */
+  border: 2px solid #25D366 !important;  /* Borda verde */
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  border-left-color: #25D366 !important;  /* Lateral esquerda verde */
+  border-right-color: #25D366 !important;  /* Lateral direita verde */
 }
 
 .botao-wpp:hover{
-    background-color: #1e9c56;  /* Fundo mais escuro no hover */
-    border-color: #1e9c56;  /* Borda mais escura no hover */
-
+  background-color: #1e9c56 !important; /* Fundo mais escuro no hover */ border-top: 2px solid #1e9c56 !important; /* Borda superior mais escura no hover */ border-bottom: 2px solid #1e9c56 !important; /* Borda inferior mais escura no hover */ border-left: 4px solid #1e9c56 !important; /* Borda esquerda mais escura no hover */ border-right: 4px solid #1e9c56 !important; /* Borda direita mais escura no hover */
 }
 
-.botao-email {
-    margin: 10px;
-    padding: 12px 24px;
-    background-color: #0078D4;  /* Fundo azul */
-    color: #fff;  /* Texto branco */
-    border: 2px solid #0078D4;  /* Borda azul */
-    border-radius: 8px;
-    cursor: pointer;
-    display: inline-block; 
-    
-}
+/* Botão do Email com laterais azuis */
+.botao-email { 
+  margin-top: 35px !important;
+  background-color: #2c2c2c !important; /* Fundo azul */ 
+  color: #fff !important; /* Texto branco */ 
+  border-top: 2px solid #0078D4 !important; /* Borda superior azul */ 
+  border-bottom: 2px solid #0078D4 !important; /* Borda inferior azul */ 
+  border-left: 2px solid #0078D4 !important; /* Borda esquerda azul */ 
+  border-right: 2px solid #0078D4 !important; /* Borda direita azul */ 
 
-.botao-email:hover {
-    background-color: #005a8c;  /* Fundo mais escuro no hover */
-    border-color: #005a8c;  /* Borda mais escura no hover */
+} 
 
+.botao-email:hover { 
+  background-color: #005a8c !important; /* Fundo mais escuro no hover */ 
+  border-top: 2px solid #005a8c !important; /* Borda superior mais escura no hover */
+  border-bottom: 2px solid #005a8c !important; /* Borda inferior mais escura no hover */ 
+  border-left: 4px solid #005a8c !important; /* Borda esquerda mais escura no hover */ 
+  border-right: 4px solid #005a8c !important; /* Borda direita mais escura no hover */ 
 }
